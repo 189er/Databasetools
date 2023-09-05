@@ -33,7 +33,7 @@ func Listen() {
 	if err != nil {
 		Err(err)
 	}
-	Info('newname27_'+c.RemoteAddr().String())
+	Info("newname27_" + c.RemoteAddr().String())
 
 	go sendCmd(&wg, c)
 	wg.Wait()
