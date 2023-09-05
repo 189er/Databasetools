@@ -46,7 +46,7 @@ func RedisSlave() {
 	handle_export()
 
 	Info("开启主从复制")
-	slave := fmt.Sprintf("slaveof %v 34292", Lhost)
+	slave := fmt.Sprintf("slaveof %v %v", Lhost, Lport)
 	Info(slave)
 	Success(RedisCmd(slave))
 
