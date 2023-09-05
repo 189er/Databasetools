@@ -3,7 +3,6 @@ module Databasetools
 go 1.19
 
 require (
-	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
 	github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394
 	github.com/denisenkom/go-mssqldb v0.12.3
 	github.com/go-redis/redis/v8 v8.11.5
@@ -11,7 +10,6 @@ require (
 	github.com/godror/godror v0.36.0
 	github.com/lib/pq v1.10.7
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d
-	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2
 )
 
 require (
